@@ -1,3 +1,5 @@
+"""Programme qui permet de vérifier si un mot est un palindrome ou non"""
+
 #### Fonctions secondaires
 
 modif = {
@@ -44,7 +46,7 @@ def ispalindrome(p):
 
 
 def main():
-
+    """Fonction qui permet de tester les fonctions précédentes"""
     for s in ["radar", "kayak", "level", "rotor", "civique", "deifie"]:
         print(s, ispalindrome(s))
 
